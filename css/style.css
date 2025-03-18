@@ -12,7 +12,7 @@ header{
     display: flex;
     justify-content: end;
     padding: 1em 2em;
-    margin-bottom: 3em;
+    /* margin-bottom: 3em; */
     background-color: beige;
     font-weight: 200;
     font-size: 1.2em;
@@ -20,10 +20,12 @@ header{
 }
 
 .reste{
+    padding: 3em 0 3em 0;
     letter-spacing: .2em;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    background-color: rgb(255, 224, 230);
 }
