@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 30vw;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    padding: 1em 2em;
+    margin-bottom: 3em;
+    background-color: beige;
+    font-weight: 200;
+    font-size: 1.2em;
+    gap: .3em;
+}
+
+.reste{
+    letter-spacing: .2em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 3em;
+}
